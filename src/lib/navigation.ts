@@ -1,25 +1,16 @@
 export const navigation = [
   {
     title: 'Introduction',
-    links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
-    ],
+    links: [{ title: 'Start here', href: '/' }],
   },
   {
-    title: 'Core concepts',
+    title: 'Architecture',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
+      { title: 'How does zkWhirl works', href: '/docs/zkwhirl-basics' },
       {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
+        title: 'ZkWhirl architecture',
+        href: '/docs/zkwhirl-architecture',
       },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
-      {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
     ],
   },
   {

@@ -48,8 +48,12 @@ function Header() {
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
-          <Logomark className="h-9 w-9 lg:hidden" />
-          <Logo className="hidden h-9 w-auto fill-slate-700 lg:block dark:fill-sky-100" />
+          <div className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-xl tracking-tight text-transparent">
+            ZkWhirl
+          </div>
+
+          {/* <Logomark className="h-9 w-9 lg:hidden" />
+          <Logo className="hidden h-9 w-auto fill-slate-700 lg:block dark:fill-sky-100" /> */}
         </Link>
       </div>
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
