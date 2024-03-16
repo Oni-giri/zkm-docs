@@ -55,6 +55,8 @@ The outer proof is sent to the rollup contract for validation and state updates.
 
 - **DeFi interaction**: the rollup contract calls out to an Aztec Connect Bridge Contract, which serves as an interface to Layer 1 smart contracts.
 
+### L1 bridge contract
+
 Bridge contracts are all fundamentally structured as two-input, two-output swaps: the rollup contract sends 1–2 assets into an L1 protocol, and atomically receives 1–2 assets back (a synchronous bridge like a swap) or returns token assets back at a later date (an asynchronous bridge like a timed vault). In the next block, it subsequently generates a claim note for the user to claim the returned asset at a later date.
 
 Virtual assets are an Aztec-specific representation of token positions that can’t immediately be returned to the rollup — think vault positions, fixed term positions, or anything else that is escrowed for redemption at a later date.

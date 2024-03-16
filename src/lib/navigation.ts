@@ -1,15 +1,26 @@
 export const navigation = [
   {
     title: 'Introduction',
-    links: [{ title: 'Start here', href: '/' }],
-  },
-  {
-    title: 'Architecture',
     links: [
-      { title: 'How does zkWhirl works', href: '/docs/zkwhirl-basics' },
+      { title: 'Start here', href: '/' },
+      { title: 'How does zkWhirl works', href: '/docs/basics/zkwhirl-basics' },
       {
         title: 'ZkWhirl architecture',
-        href: '/docs/zkwhirl-architecture',
+        href: '/docs/basics/zkwhirl-architecture',
+      },
+    ],
+  },
+  {
+    title: 'Contracts',
+    links: [
+      {
+        title: 'Getting started',
+        href: '/docs/contracts/getting-started-rollup',
+      },
+      { title: 'Deployment', href: '/docs/contracts/deployment' },
+      {
+        title: 'Bridge contracts',
+        href: '/docs/contracts/bridge-contracts',
       },
     ],
   },
