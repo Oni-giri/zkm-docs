@@ -4,11 +4,11 @@ title: Add Spending Keys
 
 Add spending keys to a registered Aztec account.
 
-The [Accounts page](basics/accounts) contains helpful context if you are unfamiliar with how Aztec accounts work.
+The [Accounts page](/basics/accounts) contains helpful context if you are unfamiliar with how Aztec accounts work.
 
 There is no limit to the number of spending keys that can be added to an Aztec account. This decreases the need for insecure key sharing between devices. For example, you can register a unique spending key on each one of your devices for the same Aztec account, so you don't have to copy and paste private keys.
 
-You can also use the [AddSpendingKeyController](sdk/AddSpendingKeyController) to add additional recovery public keys to an account after it has been registered. Read more about account recovery [here](account-recovery).
+You can also use the [AddSpendingKeyController](types#add-spending-key-controller) to add additional recovery public keys to an account after it has been registered. Read more about account recovery [here](account-recovery).
 
 ## Setup
 
@@ -24,17 +24,17 @@ AztecSdk.createAddSpendingKeyController(
 
 | Arguments | Type | Description |
 | --------- | ---- | ----------- |
-| userId | [GrumpkinAddress](../types/barretenberg/GrumpkinAddress) | The public key of the account registering the new signing keys. |
-| userSigner | [Signer](../types/sdk/Signer) | A signer associated with the userId. |
-| spendingPublicKey1 | [GrumpkinAddress](../types/barretenberg/GrumpkinAddress) | The public key of a new spending key. |
-| spendingPublicKey2 | [GrumpkinAddress](../types/barretenberg/GrumpkinAddress) | The public key of a new spending key. |
-| fee | [AssetValue](../types/barretenberg/AssetValue) | The Aztec transaction fee. |
+| userId | [GrumpkinAddress](types#grumpkin-address) | The public key of the account registering the new signing keys. |
+| userSigner | [Signer](types#signer) | A signer associated with the userId. |
+| spendingPublicKey1 | [GrumpkinAddress](types#grumpkin-address) | The public key of a new spending key. |
+| spendingPublicKey2 | [GrumpkinAddress](types#grumpkin-address) | The public key of a new spending key. |
+| fee | [AssetValue](types#Asset-Value) | The Aztec transaction fee. |
 
 ### Returns
 
 | Return Type | Description |
 | --- | --- |
-| [AddSpendingKeyController](../types/sdk/AddSpendingKeyController) | A user instance with apis bound to the user's account id. |
+| [AddSpendingKeyController](types#Add-Spending-Key-Controller) | A user instance with apis bound to the user's account id. |
 
 ## Usage
 
@@ -60,6 +60,6 @@ let txId = await controller.send();
 
 ### Transaction Fees
 
-The transaction fee can be paid in ETH or DAI.
+The transaction fee can be paid in ETH, or DAI if added.
 
-The settlement time can either be `NEXT_ROLLUP` or `INSTANT`. Refer to the [fees section](./register#calculating-fees) on the registration page for a more detailed explanation.
+The settlement time can either be `NEXT_ROLLUP` or `INSTANT`. Refer to the [fees section](register#calculating-fees) on the registration page for a more detailed explanation.

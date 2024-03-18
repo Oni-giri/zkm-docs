@@ -22,17 +22,17 @@ When deploying to dev or testnet from a local machine, there are some required e
 
 Required:
 
-- ETHEREUM_HOST - The rpc url you are targeting
-- PRIVATE_KEY - The private key you are deploying from
+- `ETHEREUM_HOST` - The rpc url you are targeting
+- `PRIVATE_KEY` - The private key you are deploying from
 
 Optional:
 
-- DEPLOYER_ADDRESS - The address of the key you are deploying from [default: the address matching the PRIVATE_KEY]
-- ROLLUP_PROVIDER_ADDRESS - The address to be added as a sequencer [default: DEPLOYER_ADDRESS]
-- FAUCET_CONTROLLER - The address that will be given superOperator privileges when the faucet is deployed [default: DEPLOYER_ADDRESS]
-- SAFE_ADDRESS - The address to own the deployed system [default: DEPLOYER_ADDRESS]
-- VK - The verification key type (VerificationKey1x1 | VerificationKey28x32 | MockVerifier) [default: MockVerifier]
-- UPGRADE - Flag to upgrade rollup to use the newest implementation [default: true]
+- `DEPLOYER_ADDRESS` - The address of the key you are deploying from [default: the address matching the PRIVATE_KEY]
+- `ROLLUP_PROVIDER_ADDRESS` - The address to be added as a sequencer [default: DEPLOYER_ADDRESS]
+- `FAUCET_CONTROLLER` - The address that will be given superOperator privileges when the faucet is deployed [default: DEPLOYER_ADDRESS]
+- `SAFE_ADDRESS` - The address to own the deployed system [default: DEPLOYER_ADDRESS]
+- `VK` - The verification key type (VerificationKey1x1 | VerificationKey28x32 | MockVerifier) [default: MockVerifier]
+- `UPGRADE` - Flag to upgrade rollup to use the newest implementation [default: true]
 
 ### How are deployments triggered?
 

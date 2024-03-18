@@ -13,6 +13,10 @@ export const navigation = [
         href: '/docs/basics/accounts-overview',
       },
       {
+        title: 'Depositing assets',
+        href: '/docs/basics/deposit',
+      },
+      {
         title: 'Glossary',
         href: '/docs/basics/glossary',
       },
