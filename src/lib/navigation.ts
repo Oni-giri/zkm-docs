@@ -8,6 +8,14 @@ export const navigation = [
         title: 'ZkWhirl architecture',
         href: '/docs/basics/zkwhirl-architecture',
       },
+      {
+        title: 'Accounts overview',
+        href: '/docs/basics/accounts-overview',
+      },
+      {
+        title: 'Glossary',
+        href: '/docs/basics/glossary',
+      },
     ],
   },
   {
@@ -24,35 +32,27 @@ export const navigation = [
       },
     ],
   },
+
   {
-    title: 'Advanced guides',
+    title: 'SDK',
     links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
       {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
+        title: 'Overview',
+        href: '/docs/sdk/overview',
       },
-    ],
-  },
-  {
-    title: 'API reference',
-    links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
-    ],
-  },
-  {
-    title: 'Contributing',
-    links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Architecture guide', href: '/docs/architecture-guide' },
-      { title: 'Design principles', href: '/docs/design-principles' },
+      { title: 'Add account', href: '/docs/sdk/add-account' },
+      {
+        title: 'Account recovery',
+        href: '/docs/sdk/account-recovery',
+      },
+      {
+        title: "Add spending key",
+        href: "/docs/sdk/add-spending-keys"
+      },
+      {
+        title: 'Types',
+        href: '/docs/sdk/types',
+      },
     ],
   },
 ]

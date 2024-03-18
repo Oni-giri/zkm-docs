@@ -2,7 +2,7 @@
 title: What is ZkWhirl ?
 ---
 
-ZkWhirl is a private zk rollup on top of an EVM chain. It allows users to deposit assets, such as ETH, a withdraw on another address, anonymously.
+ZkWhirl is a private zk rollup on top of an EVM chain. It allows users to deposit assets, such as ETH, a withdraw on another address, anonymously. It uses Aztec Connect tech, built by the Aztec team, leading the efforts in zero-knowledge privacy.
 
 It is different from solutions such as Tornado Cash, since it allows users to withdraw a lower amount than their initial deposit, but also to send each others assets anonymously, on the rollup. Users can transact, but no one can see their transaction history.
 
