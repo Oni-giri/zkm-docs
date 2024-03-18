@@ -20,7 +20,7 @@ After this transaction is executed, there is now 10 DAI in Bob's pending balance
 
 The SDK simplifies making deposits to the Aztec rollup contract as well as generating the proofs for claiming pending deposits.
 
-You can find the interface for the `DepositController` class [here](/types#Defi-Controller).
+You can find the interface for the `DepositController` class [here](types#Defi-Controller).
 
 ### Controller Setup
 

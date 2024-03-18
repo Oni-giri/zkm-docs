@@ -54,6 +54,15 @@ export const navigation = [
         href: "/docs/sdk/add-spending-keys"
       },
       {
+        title: "Deposit",
+        href: "/docs/sdk/deposit"
+      },
+      {
+        title: "Ethereum interactions",
+        href: "/docs/sdk/ethereum-interactions"
+      },
+      
+      {
         title: 'Types',
         href: '/docs/sdk/types',
       },

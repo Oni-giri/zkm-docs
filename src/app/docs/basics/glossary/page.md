@@ -108,4 +108,4 @@ Also called the Account key, the privacy key or the decryption key.
 
 This is the private key that is associated with plain (unregistered) Aztec account. This key is used to decrypt notes associated with the account. For an unregistered Aztec account, it is also used to spend notes. It can be used to [register](#account-registration) an account 1 time.
 
-See the [Accounts](h/basics/accounts-overview) page for more information.
+See the [Accounts](/basics/accounts-overview) page for more information.
