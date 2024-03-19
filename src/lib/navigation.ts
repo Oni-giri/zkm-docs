@@ -17,6 +17,10 @@ export const navigation = [
         href: '/docs/basics/deposit',
       },
       {
+        title: 'Fees',
+        href: '/docs/basics/fees',
+      },
+      {
         title: 'Glossary',
         href: '/docs/basics/glossary',
       },

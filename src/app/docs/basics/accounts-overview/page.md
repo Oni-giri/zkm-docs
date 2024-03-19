@@ -119,17 +119,3 @@ zkWhirl username/alias lets other users easily lookup your encryption public key
 
 ---
 
-### I've registered to the platform, but zk.money prompts registration once again when I try to log in again?
-
-Please follow these instructions:
-
-**Step 1:** Clear browser cache. For Chrome, this is the link: chrome://settings/cookies/detail?site=zk.money
-
-**Step 2:** Make sure you are signing in with the Metamask account you used to register zkmoney username.
-
-> 💡 Sign in with Metamask account you used to register your zkmoney username (You might have previously used a different Metamask account for funding/depositing).
-
-**Step 3:**
-
-- If it shows "Claim Username," it means your previous deposit has not been used. Claim Username to proceed.
-- If it asks you to "Deposit", it is likely we have a bug. Don't proceed and message the support team at [Discord](https://discord.gg/9TaSvc8f7r).

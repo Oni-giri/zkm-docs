@@ -6,10 +6,6 @@ nextjs:
     description: Helicopter view of zkWhirl's architecture
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
-
----
-
 zkWhirl is based on the Aztec Connect architecture, used by zk.money. Here is the diagram summarizing the architecture.
 
 ![image](/diagram.png)
