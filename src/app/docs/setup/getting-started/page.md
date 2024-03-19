@@ -4,7 +4,9 @@ title: Setting up zkWhirl
 
 ZkWhirl has many different components that need to be set up correctly for the whole solution to work.
 
-You can look at the [architecture](/basics/architecture) page to understand the structure.
+You can look at the [architecture](/basics/zkwirl-architecture) page to understand the structure.
+
+![image](/diagram.png)
 
 1. [Set up the proof-generation server](halloumi), known as "Halloumi"
 
