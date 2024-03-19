@@ -56,8 +56,13 @@ export function Hero() {
                 EVM
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Get started</Button>
-                <Button href="/" variant="secondary">
+                <Button href="/docs/setup/getting-started">
+                  Get started
+                </Button>
+                <Button
+                  href="https://github.com/AztecProtocol/aztec-connect"
+                  variant="secondary"
+                >
                   View on GitHub
                 </Button>
               </div>
