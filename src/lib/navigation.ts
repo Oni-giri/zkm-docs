@@ -27,6 +27,23 @@ export const navigation = [
     ],
   },
   {
+    title: 'Setting up zkWhirl',
+    links: [
+      {
+        title: 'Getting started',
+        href: '/docs/setup/getting-started',
+      },
+      {
+        title: 'Halloumi',
+        href: '/docs/setup/halloumi',
+      },
+      {
+        title: "Falafel",
+        href: '/docs/setup/falafel',
+      }
+    ],
+  },
+  {
     title: 'Contracts',
     links: [
       {
@@ -49,7 +66,7 @@ export const navigation = [
         href: '/docs/sdk/overview',
       },
       {
-        title: 'Set up',
+        title: 'Getting started',
         href: '/docs/sdk/setup',
       },
       {

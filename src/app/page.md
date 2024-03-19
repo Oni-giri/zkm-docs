@@ -12,13 +12,13 @@ As a result, the anonymity set of zkWhirl is better. Indeed, when trying to dean
 
 {% quick-links %}
 
-{% quick-link title="Set-up" icon="installation" href="/" description="Step-by-step guides to setting up your system and installing ZkWhirl." /%}
+{% quick-link title="Set-up" icon="installation" href="docs/setup/getting-started" description="Step-by-step guides to setting up your system and installing ZkWhirl." /%}
 
-{% quick-link title="Architecture guide" icon="presets" href="/" description="Get an helicopter-view of the network's architecture" /%}
+{% quick-link title="Architecture guide" icon="presets" href="docs/basics/zkwhirl-architecture" description="Get an helicopter-view of the network's architecture" /%}
 
-{% quick-link title="Aztec SDK" icon="plugins" href="/" description="Learn how to use the Aztec SDK to interact with ZkWhirl" /%}
+{% quick-link title="Aztec SDK" icon="plugins" href="docs/sdk/overview" description="Learn how to use the Aztec SDK to interact with ZkWhirl" /%}
 
-{% quick-link title="Learn about zero knowledge" icon="theming" href="/" description="Quick and easy intro to the world of zero knowledge" /%}
+{% quick-link title="Learn about zero knowledge" icon="theming" href="docs/basics/zkwhirl-basics" description="Quick and easy intro to the world of zero knowledge" /%}
 
 {% /quick-links %}
 

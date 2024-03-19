@@ -36,7 +36,7 @@ const ethereumProvider = new EthersAdapter(ethersProvider);
 
 ## SDK setup
 
-Once the provider is set up you can create an instance of the Aztec SDK, specifying the rollup host. When working on the mainnet fork [local development environment](../../developers/local-devnet), the corresponding sequencer endpoint is:
+Once the provider is set up you can create an instance of the Aztec SDK, specifying the rollup host. When working on the mainnet fork [local development environment](local-devnet), the corresponding sequencer endpoint is:
 
 ```shell
 http://localhost:8081
