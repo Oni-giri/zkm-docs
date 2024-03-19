@@ -36,11 +36,11 @@ For example, the `RegisterController` is used for registering accounts, the `Dep
 
 ## Accounts
 
-Aztec accounts may have two or more associated private keys. A new Aztec account should register a unique spending key before handling funds. Please review the [account overview page](basics/accounts-overview) for a high level overview or dig into the code in the [Add Accounts to the SDK page](usage/add-account).
+Aztec accounts may have two or more associated private keys. A new Aztec account should register a unique spending key before handling funds. Please review the [account overview page](basics/accounts-overview) for a high level overview or dig into the code in the [Add Accounts to the SDK page](add-account).
 
 ## Transaction Fee Payers
 
-Aztec allows the account is paying transaction fees for a transaction to be different than the account that is sending assets. You can read more about how to use this functionality on the [Fee Controller page](usage/feecontroller).
+Aztec allows the account is paying transaction fees for a transaction to be different than the account that is sending assets. You can read more about how to use this functionality on the [Fee Controller page](feecontroller).
 
 ## SDK Flavours
 

@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Deposit (Shield)
 ---
 
@@ -120,4 +120,4 @@ const proofHash = await tokenDepositController.getProofHash();
 
 You do not need to call `sign()` on the DepositController, like in the previous example.
 
-Once the `depositPendingFunds` transaction settles on Ethereum, send the funds to the Aztec account designated in the deposit proof by sending the deposit proof to the Aztec sequencer with `await tokenDepositController.send()`. The proof could be saved from before or regenerated from the same inputs.
+Once the `depositPendingFunds` transaction settles on Ethereum, send the funds to the Aztec account designated in the deposit proof by sending the deposit proof to the Aztec sequencer with `await tokenDepositController.send()`. The proof could be saved from before or regenerated from the same inputs. -->

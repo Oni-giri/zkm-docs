@@ -4,7 +4,7 @@ title: Ethereum Interactions
 
 One of the most exciting features of Aztec Connect is the ability to interact directly with Ethereum from Aztec. Interactions with Ethereum are facilitated by bridge contracts. You can read more about bridge contracts in the [Aztec Connect bridges repo](https://github.com/AztecProtocol/aztec-connect-bridges) on Github.
 
-The [DefiController](types#Defi-Controller) makes it easy to interact directly with deployed Ethereum bridge contracts. Bridge contracts make the connection between the Aztec rollup processor contract and various Ethereum contracts.
+The [DefiController](types#defi-controller) makes it easy to interact directly with deployed Ethereum bridge contracts. Bridge contracts make the connection between the Aztec rollup processor contract and various Ethereum contracts.
 
 ## Setup
 
@@ -22,11 +22,11 @@ AztecSdk.createDefiController(
 
 | Arguments | Type | Description |
 | --------- | ---- | ----------- |
-| userId | [GrumpkinAddress](../types/barretenberg/GrumpkinAddress) | Owner of the value note to be sent. |
-| userSigner | [Signer](../types/sdk/Signer) | A signer associated with the `userId`. |
-| bridgeCallData | [BridgeCallData](../types/barretenberg/BridgeCallData) | A unique id corresponding to the bridge that the `value` is sent to. |
-| value | [AssetValue](../types/barretenberg/AssetValue) | Asset type and amount to send. |
-| fee | [AssetValue](../types/barretenberg/AssetValue) | Asset type and amount to pay for the Aztec transaction fee. |
+| userId | [GrumpkinAddress](types#grumpkin-address) | Owner of the value note to be sent. |
+| userSigner | [Signer](types#Signer) | A signer associated with the `userId`. |
+| bridgeCallData | [BridgeCallData](types#bridge-call-data) | A unique id corresponding to the bridge that the `value` is sent to. |
+| value | [AssetValue](types#asset-value) | Asset type and amount to send. |
+| fee | [AssetValue](types#AssetValue) | Asset type and amount to pay for the Aztec transaction fee. |
 
 #### Returns
 
