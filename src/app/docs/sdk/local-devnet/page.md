@@ -1,8 +1,6 @@
 ---
-title: Local Devnet
+title: Setting up a local Aztec development network
 ---
-
-# Setting up a local Aztec development network
 
 You can set up a local Aztec network for development purposes using docker compose scripts.
 

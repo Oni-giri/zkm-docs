@@ -6,11 +6,11 @@ Pay transaction fees for other accounts.
 
 High level overview of creating paying transaction fees for another user:
 
-### Context
+## Context
 
 Alice is generating transaction proofs that will be sent to the [sequencer](/basics/glossary#sequencer) by Bob. Bob will pay the transaction fees to process Alice's transaction proofs.
 
-### Process
+## Process
 
 1. Alice sets up the transaction creation [controller](overview#controllers).
    1. `registerController = aztecSdk.createRegisterController(...)`
