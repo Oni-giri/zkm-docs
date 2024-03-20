@@ -24,13 +24,13 @@ The accounts registered by users on Aztec are represented by account notes. An a
 
 Used when a user loses access to all of their registered [Spending keys](#spending-key). Note that a user must have the [viewing key](#viewing-key) in order to recover an account.
 
-Read more about account recovery in the SDK docs [here](/sdk/account-recovery.md).
+Read more about account recovery in the SDK docs [here](/docs/sdk/account-recovery.md).
 
 ## Account Registration
 
 Registering an account on Aztec associates the account public key with an alias, a spending key and an optional recovery key. A recovery key must be added at registration in order to take advantage of [account recovery](#account-recovery).
 
-Read more about account registration on the [accounts page](accounts-overview#account-registration) and in the SDK docs [here](/sdk/register.md).
+Read more about account registration on the [accounts page](accounts-overview#account-registration) and in the SDK docs [here](/docs/sdk/register.md).
 
 ## Alias
 
@@ -55,17 +55,17 @@ Asset Ids are unique numbers that correspond to various assets in Aztec.
  
 ## Barretenberg
 
-Aztec's cryptography back-end. Refer to the graphic at the top of [this page](/basics/) to see how it fits in the Aztec architecture.
+Aztec's cryptography back-end. Refer to the graphic at the top of [this page](/docs/basics/) to see how it fits in the Aztec architecture.
 
 ## Falafel
 
 The Aztec client. See [Sequencer](#sequencer) for more info.
 
-Refer to the graphic at the top of [this page](/basics/zkwhirl-architecture) to see how it fits in the Aztec architecture.
+Refer to the graphic at the top of [this page](/docs/basics/zkwhirl-architecture) to see how it fits in the Aztec architecture.
 
 ## Halloumi
 
-Aztec's Proof creation service. Refer to the graphic at the top of [this page](/basics/zkwhirl-architecture) to see how it fits in the Aztec architecture.
+Aztec's Proof creation service. Refer to the graphic at the top of [this page](/docs/basics/zkwhirl-architecture) to see how it fits in the Aztec architecture.
 
 ## Privacy Key
 
@@ -88,11 +88,11 @@ This service is responsible for:
 
 You can find the Typescript reference implementation called Falafel [here](https://github.com/AztecProtocol/aztec-connect/tree/master/falafel).
 
-Refer to the graphic at the top of [this page](/basics/zkwhirl-architecture) to see how it fits in the Aztec architecture.
+Refer to the graphic at the top of [this page](/docs/basics/zkwhirl-architecture) to see how it fits in the Aztec architecture.
 
 ## Spending Key
 
-A specific private key registered to an account with permission to spend asset notes on behalf of that account. See the [Accounts](/basics/accounts-overview) page for more information.
+A specific private key registered to an account with permission to spend asset notes on behalf of that account. See the [Accounts](/docs/basics/accounts-overview) page for more information.
 
 ## Signing Key
 
@@ -108,4 +108,4 @@ Also called the Account key, the privacy key or the decryption key.
 
 This is the private key that is associated with plain (unregistered) Aztec account. This key is used to decrypt notes associated with the account. For an unregistered Aztec account, it is also used to spend notes. It can be used to [register](#account-registration) an account 1 time.
 
-See the [Accounts](/basics/accounts-overview) page for more information.
+See the [Accounts](/docs/basics/accounts-overview) page for more information.

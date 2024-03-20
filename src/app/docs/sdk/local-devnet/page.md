@@ -164,7 +164,6 @@ Mnemonic:          test test test test test test test test test test test junk
 Derivation path:   m/44'/60'/0'/0/
 ```
 
-If you have questions, please reach out on [Discord](https://discord.com/invite/UDtJr9u).
 
 ### Add Custom Token
 

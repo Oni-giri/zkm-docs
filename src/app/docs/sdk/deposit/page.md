@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: Deposit (Shield)
 ---
 
 Deposit assets from Ethereum to zkWhirl.
 
-Review the [general page on deposits](/basics/deposit) for a higher level review of how deposits work on Aztec.
+Review the [general page on deposits](/docs/basics/deposit) for a higher level review of how deposits work on Aztec.
 
 The SDK comes with a `DepositController` that makes it easy to create and track deposit transactions from Ethereum to Aztec.
 
@@ -22,7 +22,7 @@ The SDK simplifies making deposits to the Aztec rollup contract as well as gener
 
 You can find the interface for the `DepositController` class [here](types#Defi-Controller).
 
-### Controller Setup
+## Controller Setup
 
 ```ts
 AztecSdk.createDepositController(

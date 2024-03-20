@@ -5,7 +5,7 @@ title: Accounts overview
 
 ## A Technical Primer on Accounts
 
-There are two main parts to each Aztec account, the account (private/public key pair) and signers. The account is associated with a [viewing key](glossary.md#viewing-key) that can be used to decrypt [value notes](glossary#value-notes) (assets on Aztec). The signers are associated with [spending keys](glossary.md#spending-key) (or signing keys) which can be used to send notes from the associated account.
+There are two main parts to each Aztec account, the account (private/public key pair) and signers. The account is associated with a [viewing key](glossary#viewing-key) that can be used to decrypt [value notes](glossary#value-notes) (assets on Aztec). The signers are associated with [spending keys](glossary#spending-key) (or signing keys) which can be used to send notes from the associated account.
 
 These diagrams provide an overview of the account model and the following text goes into detail on each of the components.
 
@@ -43,7 +43,7 @@ A basic account is the first account that is generated for an Aztec user--it is 
 
 The private key associated with this account can be used to decrypt notes. The private key can also be used to register many distinct spending keys. This allows for account abstraction by creating a separation between the key required to decrypt notes and the key required to spend notes. If a spending key has not been registered, the account viewing key can be used.
 
-Accounts can be identified by their alias or their public key. You can read more about aliases below. You can also find more information in the [SDK section on account keys](sdk/usage/add-account#account-keys).
+Accounts can be identified by their alias or their public key. You can read more about aliases below. You can also find more information in the [SDK section on account keys](/docs/sdk/add-account#account-keys).
 
 ### Spending keys (signer)
 
@@ -55,7 +55,7 @@ Registering a spending key has an associated fee as it typically includes a toke
 
 You can add as many spending keys to an account as you want. This allows you to spend notes from the same account from multiple devices without having to share sensitive private keys across devices.
 
-Read more about creating and using spending keys in the SDK docs [here](sdk/usage/add-account#spending-keys).
+Read more about creating and using spending keys in the SDK docs [here](/docs/sdk/usage/add-account#spending-keys).
 
 ### Account Registration
 
@@ -75,7 +75,7 @@ If you want to know exactly what you can spend in one transaction, you have to t
 
 When actually creating the zero knowledge proof, the SDK infers which balance you're drawing from based on whether you give it a spending key or the account key.
 
-Read more about account registration with the SDK on [this page](sdk/usage/register).
+Read more about account registration with the SDK on [this page](/docs/sdk/usage/register).
 
 ### Account Alias
 
@@ -97,7 +97,7 @@ If you lose access to all of your spending keys for an account, the designated r
 
 This recovery information is created and registered with the account during the account registration step.
 
-Read more about account recovery with the SDK on [this page](sdk/usage/account-recovery).
+Read more about account recovery with the SDK on [this page](/docs/sdk/usage/account-recovery).
 
 ## Frequently Asked Questions
 

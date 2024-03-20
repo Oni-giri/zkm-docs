@@ -187,12 +187,11 @@ Before submitting a PR for a review make sure that the following is true:
 
 ## SDK
 
-You can find more information about setting up connections to bridge contracts with the SDK on the [Ethereum Interactions](https://docs.aztec.network/sdk/usage/ethereum-interaction) page of the docs.
+You can find more information about setting up connections to bridge contracts with the SDK on the [Ethereum Interactions](/docs/sdk/ethereum-interactions) page of the docs.
 
 ## Testing methodology
 
-This repo includes an Infura key that allows forking from mainnet.
-We have included helpers to make testing easier (see [example bridge tests](./src/test/bridges/example)).
+You can check the `test` folder in the repo for examples.
 
 In production a bridge is called by a user creating a client side proof via the Aztec SDK.
 These transaction proofs are sent to a rollup provider for aggregation.
@@ -233,11 +232,9 @@ We decided to have 2 separate approaches of bridge testing:
 1. In the first one it is expected that you call convert function directly on the bridge contract.
    This allows for simple debugging because execution traces are simple.
    Disadvantage of this approach is that you have to take care of transferring tokens to and from the bridge (this is handled by the DefiBridgeProxy contract in the production environment).
-   This type of test can be considered to be a unit test and an example of such a test is [here](./src/test/bridges/example/ExampleUnit.t.sol).
 
 2. In the second approach we construct a `bridgeCallData`, we mock proof data and verifier's response, and we pass this data directly to the RollupProcessor's `processRollup(...)` function.
    The purpose of this test is to test the bridge in an environment that is as close to the final deployment as possible without spinning up all the rollup infrastructure (sequencer, proof generator etc.).
-   This test can be considered an end-to-end test of the bridge and an example of such a test is [here](./src/test/bridges/example/ExampleE2E.t.sol).
 
 We encourage you to first write all tests as unit tests to be able to leverage simple traces while you are debugging the bridge.
 Once you make the bridge work in the unit tests environment convert the relevant tests to E2E.
@@ -367,6 +364,3 @@ This method has 2 parameters:
 2. `_rollupBeneficiary` is the address of the beneficiary.
    This value is passed to the `convert(...)` function.
 
-For more info on how the Subsidy works see the documentation in the [Subsidy.sol](./src/aztec/Subsidy.sol) file.
-
-See the [example bridge](./src/bridges/example/ExampleBridge.sol) for an example subsidy integration.

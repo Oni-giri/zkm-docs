@@ -36,7 +36,7 @@ For example, the `RegisterController` is used for registering accounts, the `Dep
 
 ## Accounts
 
-Aztec accounts may have two or more associated private keys. A new Aztec account should register a unique spending key before handling funds. Please review the [account overview page](basics/accounts-overview) for a high level overview or dig into the code in the [Add Accounts to the SDK page](add-account).
+Aztec accounts may have two or more associated private keys. A new Aztec account should register a unique spending key before handling funds. Please review the [account overview page](/docs/basics/accounts-overview) for a high level overview or dig into the code in the [Add Accounts to the SDK page](add-account).
 
 ## Transaction Fee Payers
 

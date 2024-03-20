@@ -8,7 +8,7 @@ High level overview of creating paying transaction fees for another user:
 
 ## Context
 
-Alice is generating transaction proofs that will be sent to the [sequencer](/basics/glossary#sequencer) by Bob. Bob will pay the transaction fees to process Alice's transaction proofs.
+Alice is generating transaction proofs that will be sent to the [sequencer](/docs/basics/glossary#sequencer) by Bob. Bob will pay the transaction fees to process Alice's transaction proofs.
 
 ## Process
 

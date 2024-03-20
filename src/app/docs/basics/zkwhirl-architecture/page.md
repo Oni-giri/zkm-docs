@@ -18,7 +18,7 @@ The Aztec SDK is privacy's main character and is responsible for computing "inne
 
 It is worth noting that the user has two kind of keys: a **view key**, that allows him to decrypt past transactions and know his account state, and a **spending key** that lets him construct proofs and send transactions on the network.
 
-- Read the Aztec SDK docs here
+- Read the Aztec SDK docs [here](/docs/sdk/overview)
 - [Aztec SDK repo](https://github.com/AztecProtocol/aztec-connect/tree/master/yarn-project/sdk)
 
 ## Falafel
