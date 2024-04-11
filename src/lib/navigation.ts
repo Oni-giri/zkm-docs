@@ -38,9 +38,9 @@ export const navigation = [
         href: '/docs/setup/halloumi',
       },
       {
-        title: "Falafel",
+        title: 'Falafel',
         href: '/docs/setup/falafel',
-      }
+      },
     ],
   },
   {
@@ -54,6 +54,10 @@ export const navigation = [
       {
         title: 'Bridge contracts',
         href: '/docs/contracts/bridge-contracts',
+      },
+      {
+        title: 'Crosschain',
+        href: '/docs/contracts/crosschain',
       },
     ],
   },
