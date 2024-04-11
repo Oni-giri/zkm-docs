@@ -1,5 +1,5 @@
 ---
-title: crosschain deposits
+title: Crosschain deposits
 ---
 
 Using a trusted custom keeper, it is possible to do cross-chain deposits into the protocol.
